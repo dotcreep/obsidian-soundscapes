@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const MUSIC_FILE_EXTENSIONS = ["mp3"];
+const MUSIC_FILE_EXTENSIONS = ["mp3", "m4a", "opus", "ogg"];
 
 /**
  * Given a file path, builds a list of music files by recursively going through the file structure and finding
